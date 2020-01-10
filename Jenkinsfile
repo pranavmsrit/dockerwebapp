@@ -4,7 +4,7 @@ node {
 
     docker.withRegistry('https://registry.hub.docker.com', 'docker-hub') {
 
-        def customImage = docker.build("pranavmsir/dockerwebapp")
+        def customImage = docker.build("pranavmsrit/pranav1900/jenkinsautomation")
 
         /* Push the container to the custom Registry */
         customImage.push()
